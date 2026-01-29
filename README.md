@@ -44,7 +44,9 @@ Solicitud de una contraseña y la longitud de la misma.
 # 2. Resultado del Ataque de Fuerza Bruta :
 <img width="368" height="491" alt="image" src="https://github.com/user-attachments/assets/ecab6933-c082-4b9c-9e05-e962cf09caf4" />
 
+La imagen muestra la ejecución del algoritmo de fuerza bruta controlada, donde el programa va generando y probando combinaciones de caracteres de manera secuencial (por ejemplo: mae, mar, mat, may, mau, …). Cada combinación representa un intento del algoritmo por adivinar la contraseña definida por el usuario.
 
+En este caso, el algoritmo logra encontrar la contraseña “mal” después de realizar 267 021 intentos, con un tiempo total de ejecución aproximado de 11.53 segundos. Esto evidencia cómo, incluso para una contraseña corta de tres caracteres, el número de intentos puede ser considerable cuando se utiliza un alfabeto amplio.
 
 ##  Reflexión
 
